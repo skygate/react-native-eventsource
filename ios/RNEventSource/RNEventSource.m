@@ -5,6 +5,8 @@
 #import "RCTEventDispatcher.h"
 #import "RCTUtils.h"
 
+#import <objc/runtime.h>
+
 #import "EventSource.h"
 
 @implementation EventSource (React)
